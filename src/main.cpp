@@ -75,7 +75,7 @@ void setup() {
     if (httpResCode > 0) {
         tft.fillScreen(ST77XX_BLACK);
         tft.setCursor(10, 10);
-        tft.setTextSize(1);
+        tft.setTextSize(1.3);
 
         String payload = http.getString();
 
